@@ -168,9 +168,9 @@ window.addEventListener('scroll', function () {
 
 // GMAIL LINK
 if (window.innerWidth > 768)
-    document.getElementById('gmail-link').href = "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=kartik.verma1996@gmail.com";
+    document.getElementById('gmail-link').href = "https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=ar.kartikverma@gmail.com";
 else
-    document.getElementById('gmail-link').href = "mailto:kartik.verma1996@gmail.com";
+    document.getElementById('gmail-link').href = "mailto:ar.kartikverma@gmail.com";
 
 
 // To see loader
