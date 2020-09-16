@@ -137,12 +137,13 @@ visibility: hidden;
   left: 50%;
   transform: translate(-50%,-50%);
   animation: logo-flow 1s 2.4s ease forwards;
+ 
 }
 
 @keyframes logo-flow{
  
   100%{
-    opacity: 0;
+    opacity: 0; 
  width: 80vw;
   }
 }
