@@ -98,6 +98,20 @@ body,html{
   opacity: 1;
 }
 
+#homeScreenLogo{
+  width: 60px;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  z-index: 10;
+}
+
+#homeScreenLogo .st0{
+  fill:none;stroke:#000000;stroke-width:0.22;stroke-miterlimit:10;
+}
+#homeScreenLogo	.st1{
+  fill:#000000;
+}
 /* Thesis.html */
 
 .position-relative{
@@ -654,7 +668,12 @@ color: #484848;
     width: 80px;
   }
 
-
+  #homeScreenLogo{
+    width: 50px;
+    position: absolute;
+    left: initial;
+    right: 20px;
+  }
  .fixed{
   position: relative;
 }
@@ -778,6 +797,9 @@ color: #484848;
   button.navbar-toggler{
     margin-left: 0px!important;
     } 
+    #homeScreenLogo{
+      right: 10px;
+    }
   p{
     font-size: 13px;
   }
