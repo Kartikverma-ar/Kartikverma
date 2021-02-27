@@ -1,4 +1,7 @@
-
+//To assign year to copyright
+var d = new Date();
+var year = d.getFullYear();
+document.getElementsByClassName('copyright')[0].innerHTML = `&copy;${year} - ALL RIGHTS RESERVED - KARTIK VERMA`;
 
 // To close navbar on outside click
 $(document).ready(function () {
