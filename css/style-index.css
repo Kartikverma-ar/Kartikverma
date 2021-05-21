@@ -456,7 +456,7 @@ transform: translateY(100%);
 /* PROJECT SECTION */
 
 #portfolio{
-  height:190vh;
+  height:110vh;
   background-color:#F0F0F0;
 }
 .project{
@@ -473,15 +473,11 @@ left: 15%;
 width: 430px;
 top: 40%;
 }
-.project-image-two{
+
+ .project-image-three{
   right: 15%;
   width: 380px;
   top: 5%;
- }
- .project-image-three{
-  left: 25%;
-  width: 430px;
-  top: 10%;
  }
 
  /* PROJECT TEXT */
@@ -670,15 +666,11 @@ top: 40%;
       width: 350px;
       top: 40%;
       }
-      .project-image-two{
+   
+       .project-image-three{
         right: 15%;
         width: 300px;
         top: 5%;
-       }
-       .project-image-three{
-        left: 25%;
-        width: 350px;
-        top: 15%;
        }
        #logo-loading{
         width: 350px;
@@ -755,15 +747,11 @@ top: 40%;
       width: 350px;
       top: 40%;
       }
-      .project-image-two{
-        right: 15%;
+   
+       .project-image-three{
+        right: 25%;
         width: 300px;
         top: 15%;
-       }
-       .project-image-three{
-        left: 25%;
-        width: 350px;
-        top: 20%;
        }
        .about-heading{
          font-size: 120px;
@@ -871,9 +859,9 @@ top: 40%;
       top: 15%;
      }
      .project-image-three{
-      left: 25%;
-      width: 350px;
-      top: 30%;
+      right: 25%;
+      width: 300px;
+      top: 15%;
      }
      #about{
        height: 100vh;
@@ -964,15 +952,11 @@ top: 40%;
       width: 300px;
       top: 40%;
       }
-      .project-image-two{
-        right: 5%;
+
+       .project-image-three{
+        right: 25%;
         width: 300px;
         top: 15%;
-       }
-       .project-image-three{
-        left:5%;
-        width: 350px;
-        top: 30%;
        }
   
    }
@@ -1023,7 +1007,7 @@ top: 40%;
       }
       
       #portfolio{
-        height:160vh;
+        height:100vh;
       }
       .project{
         position: relative;
@@ -1035,15 +1019,11 @@ top: 40%;
         width: 300px;
         top: 35%;
         }
-        .project-image-two{
-         right: 10%;
-          width: 250px;
-          top: 20%;
-         }
+
          .project-image-three{
-          left: 10%;
+          right: 25%;
           width: 300px;
-          top: 30%;
+          top: 20%;
          }
 
          .project-text-left{
@@ -1145,6 +1125,11 @@ top: 40%;
       font-weight: 600;
       font-size: 13px;
     }
+    .project-image-three{
+      right: 15%;
+      width: 300px;
+      top: 20%;
+     }
 
     .face{
       width: 100%;
